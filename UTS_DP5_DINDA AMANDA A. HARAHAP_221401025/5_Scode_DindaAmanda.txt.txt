@@ -1,0 +1,22 @@
+program while_do;
+
+uses crt;
+var
+    i: integer;
+        
+begin
+clrscr;
+    i:= 1;
+
+    write ('bilangan');
+clrscr;
+    
+    while i <=5 do
+begin
+    write(i, ' ');
+
+    i:= i+1;
+end;
+
+readln;
+ end.

@@ -1,0 +1,24 @@
+program uts;
+
+uses crt;
+var
+        n,a: string;
+        c,f,k,r: real;
+begin
+clrscr;
+
+writeln('masukkan nama awal');readln(n);
+writeln('masukkan nama akhir');readln(a);
+writeln('masukkan suhu');readln(c);
+
+clrscr;
+
+f:=(9/5)*c+32;
+k:=c+273;
+r:=(4/5)*c;
+
+clrscr;
+
+writeln('halo ' ,  n ,' ', a , ', ', 'hari ini bersuhu : ' , r:0:2  , ' R', ' / ' , k:0:2, ' K', ' / ', f:0:2, ' F');                                                                         readln;
+readln;
+end.
